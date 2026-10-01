@@ -4,27 +4,27 @@ from logging.handlers import RotatingFileHandler
 # Bot Configuration
 LOG_FILE_NAME = "bot.log"
 PORT = '5010'
-OWNER_ID = 7583913669
+OWNER_ID = 5953067512
 
 MSG_EFFECT = 5046509860389126442
 
-SHORT_URL = "linkshortify.com" # shortner url 
+SHORT_URL = "" # shortner url 
 SHORT_API = "" 
-SHORT_TUT = "https://t.me/How_to_Download_7x/26"
+SHORT_TUT = ""
 
 # Bot Configuration
 SESSION = "detorbots"
-TOKEN = ""
-API_ID = "37988924"
-API_HASH = "fccc55f248cf1739f6cf120d3e244561"
+TOKEN = "8915809620:AAHFUdfK19ySLFFSGtNnTsPaO3pdw3MfeMk"
+API_ID = "39020336"
+API_HASH = "b6b6742ac6ad6936dfc88caeac95b7a4"
 WORKERS = 5
 
-DB_URI = ""
+DB_URI = "mongodb+srv://Maggie12:Deepta123@cluster0.g4syvio.mongodb.net/?appName=Cluster0"
 DB_NAME = "testbot"
 
-FSUBS = [[-1003726486971, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [[-1001957958432, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
-DB_CHANNEL = -1003726816240  # just put channel id dont add ""
+DB_CHANNEL = -1004300961551  # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1002595092736": {"name": "Primary DB", "is_primary": True, "is_active": True},
@@ -33,22 +33,22 @@ DB_CHANNEL = -1003726816240  # just put channel id dont add ""
 # Auto Delete Timer (seconds)
 AUTO_DEL = 300
 # Admin IDs
-ADMINS = [7583913669, 7680976846]
+ADMINS = [8291184297, 7680976846]
 # Bot Settings
 DISABLE_BTN = True
-PROTECT = True
+PROTECT = False
 
 # Messages Configuration
 MESSAGES = {
-    "START": "<b>›› ʜᴇʏ!!, {first} ~ <blockquote>ʟᴏᴠᴇ ᴘᴏʀɴʜᴡᴀ? ɪ ᴀᴍ ᴍᴀᴅᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ғɪɴᴅ ᴡʜᴀᴛ ʏᴏᴜ aʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ.</blockquote></b>",
+    "START": "<b>›› ʜᴇʏ!!, {first} ~ <blockquote>ʟᴏᴠᴇ ᴅʀᴀᴍᴀ? ɪ ᴀᴍ ᴍᴀᴅᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ғɪɴᴅ ᴡʜᴀᴛ ʏᴏᴜ aʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ.</blockquote></b>",
     "FSUB": "<b><blockquote>›› ʜᴇʏ ×</blockquote>\n  ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs</b>",
-    "ABOUT": "<b>›› ғᴏʀ ᴍᴏʀᴇ: @Nova_Flix \n <blockquote expandable>›› ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/codeflix_bots'>Cʟɪᴄᴋ ʜᴇʀᴇ</a> \n›› ᴏᴡɴᴇʀ: @ProYato\n›› ʟᴀɴɢᴜᴀɢᴇ: <a href='https://docs.python.org/3/'>Pʏᴛʜᴏɴ 3</a> \n›› ʟɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a> \n›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a> \n›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @cosmic_freak</b></blockquote>",
-    "REPLY": "<b>For More Join - @Hanime_Arena</b>",
+    "ABOUT": "<b>›› ғᴏʀ ᴍᴏʀᴇ: @infinite_drama \n",
+    "REPLY": "<b>For More Join - @ifpremium</b>",
     "SHORT_MSG": "<b>📊 ʜᴇʏ {first}, \n\n‼️ ɢᴇᴛ ᴀʟʟ ꜰɪʟᴇꜱ ɪɴ ᴀ ꜱɪɴɢʟᴇ ʟɪɴᴋ ‼️\n\n ⌯ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴏᴘᴇɴ ʟɪɴᴋ ʙᴜᴛᴛᴏɴ..</b>",
-    "START_PHOTO": "https://graph.org/file/510affa3d4b6c911c12e3.jpg",
-    "FSUB_PHOTO": "https://telegra.ph/file/7a16ef7abae23bd238c82-b8fbdcb05422d71974.jpg",
-    "SHORT_PIC": "https://telegra.ph/file/7a16ef7abae23bd238c82-b8fbdcb05422d71974.jpg",
-    "SHORT": "https://telegra.ph/file/8aaf4df8c138c6685dcee-05d3b183d4978ec347.jpg"
+    "START_PHOTO": "https://imgh.in/host/68f305",
+    "FSUB_PHOTO": "https://imgh.in/host/68f305",
+    "SHORT_PIC": "https://imgh.in/host/68f305",
+    "SHORT": "https://imgh.in/host/68f305"
 }
 
 def LOGGER(name: str, client_name: str) -> logging.Logger:
