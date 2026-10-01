@@ -14,7 +14,7 @@ SHORT_TUT = ""
 
 # Bot Configuration
 SESSION = "detorbots"
-TOKEN = "8915809620:AAHFUdfK19ySLFFSGtNnTsPaO3pdw3MfeMk"
+TOKEN = "8949603542:AAEgtzk-35QNcp53x7k5uhe8VEYZmsBHKaw"
 API_ID = "39020336"
 API_HASH = "b6b6742ac6ad6936dfc88caeac95b7a4"
 WORKERS = 5
@@ -22,9 +22,9 @@ WORKERS = 5
 DB_URI = "mongodb+srv://Maggie12:Deepta123@cluster0.g4syvio.mongodb.net/?appName=Cluster0"
 DB_NAME = "testbot"
 
-FSUBS = [[-1001957958432, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [[-1003726486971, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
-DB_CHANNEL = -1004300961551  # just put channel id dont add ""
+DB_CHANNEL = -1004365756359  # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1002595092736": {"name": "Primary DB", "is_primary": True, "is_active": True},
