@@ -14,7 +14,7 @@ SHORT_TUT = ""
 
 # Bot Configuration
 SESSION = "detorbots"
-TOKEN = "8949603542:AAEgtzk-35QNcp53x7k5uhe8VEYZmsBHKaw"
+TOKEN = "8877011795:AAG3loWoWNvLHJNXtol-OaITp2brAuWzX9Y"
 API_ID = "39020336"
 API_HASH = "b6b6742ac6ad6936dfc88caeac95b7a4"
 WORKERS = 5
